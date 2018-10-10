@@ -15,6 +15,7 @@
 		A52866BC216E43AE00BB66E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52866BB216E43AE00BB66E0 /* main.m */; };
 		A52866C6216E43AE00BB66E0 /* SSCountingLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52866C5216E43AE00BB66E0 /* SSCountingLabelTests.m */; };
 		A52866D1216E43AE00BB66E0 /* SSCountingLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52866D0216E43AE00BB66E0 /* SSCountingLabelUITests.m */; };
+		A52866E0216E43CE00BB66E0 /* SSCountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52866DF216E43CD00BB66E0 /* SSCountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A52866CC216E43AE00BB66E0 /* SSCountingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSCountingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52866D0216E43AE00BB66E0 /* SSCountingLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCountingLabelUITests.m; sourceTree = "<group>"; };
 		A52866D2216E43AE00BB66E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52866DE216E43CD00BB66E0 /* SSCountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCountingLabel.h; sourceTree = "<group>"; };
+		A52866DF216E43CD00BB66E0 /* SSCountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A52866AB216E43AD00BB66E0 /* SSCountingLabel */ = {
 			isa = PBXGroup;
 			children = (
+				A52866DE216E43CD00BB66E0 /* SSCountingLabel.h */,
+				A52866DF216E43CD00BB66E0 /* SSCountingLabel.m */,
 				A52866AC216E43AD00BB66E0 /* AppDelegate.h */,
 				A52866AD216E43AD00BB66E0 /* AppDelegate.m */,
 				A52866AF216E43AD00BB66E0 /* ViewController.h */,
@@ -265,6 +270,7 @@
 				A52866B1216E43AD00BB66E0 /* ViewController.m in Sources */,
 				A52866BC216E43AE00BB66E0 /* main.m in Sources */,
 				A52866AE216E43AD00BB66E0 /* AppDelegate.m in Sources */,
+				A52866E0216E43CE00BB66E0 /* SSCountingLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
